@@ -1,0 +1,20 @@
+{
+  "Recipes": [
+    {
+      "id": 1,
+      "name": "Fancier Bouquet",
+      "ingridients": "",
+      "": "",
+      
+    },
+    {
+      "id": 2,
+      "name": "Prideholme Potato",
+      "merchant": "Ben",
+      "rarity": "Epic",
+      "region": "Rethmaris",
+      "favorite_NPC": "Prideholme Neria",
+      "quantity": 0
+    }
+  ]
+}
