@@ -5,8 +5,17 @@
         xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
         xmlns:local="clr-namespace:WpfApp1"
         mc:Ignorable="d"
-        Title="MainWindow" Height="450" Width="800">
+        Title="MainWindow" Height="700" Width="1000">
     <Grid>
+        <Grid.ColumnDefinitions>
+            <ColumnDefinition Width="250*"/>
+
+            <ColumnDefinition Width="250*"/>
+        </Grid.ColumnDefinitions>
+        <TextBox Grid.Column="1" HorizontalAlignment="Center" Margin="0,212,0,0" TextWrapping="Wrap" Text="TextBox" VerticalAlignment="Top" Width="480" Height="472"/>
+        <CheckBox Grid.Column="1" Content="CheckBox" HorizontalAlignment="Left" Margin="306,62,0,0" VerticalAlignment="Top" RenderTransformOrigin="1.331,-1.686"/>
+        <CheckBox Grid.Column="1" Content="CheckBox" HorizontalAlignment="Left" Margin="306,95,0,0" VerticalAlignment="Top" RenderTransformOrigin="1.331,-1.686"/>
+
 
     </Grid>
 </Window>

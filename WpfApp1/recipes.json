@@ -2,19 +2,23 @@
   "Recipes": [
     {
       "id": 1,
-      "name": "Fancier Bouquet",
-      "ingridients": "",
-      "": "",
-      
-    },
+      "name": "Chicken soup",
+      "course": "Main",
+      "cookingType": "Boil",
+      "ingridients": [
+        "500g chicken meat",
+        "3 carrots",
+        "2 tablespoons oil"
+      ],
+      "preparationNotes": "lorem ipsun"
+    }
+  ],
+  "Users": [
     {
-      "id": 2,
-      "name": "Prideholme Potato",
-      "merchant": "Ben",
-      "rarity": "Epic",
-      "region": "Rethmaris",
-      "favorite_NPC": "Prideholme Neria",
-      "quantity": 0
+      "id": "lorem ipsun",
+      "username": "lorem ipsun",
+      "password": "lorem ipsun",
+      "favourite": "lorem ipsun"
     }
   ]
 }
